@@ -15,7 +15,7 @@ age = int(input("How old are you? "))
 if 100 >age >= 18:
     print("You are an adult.")
 elif age > 100:
-    print("!!DAMN " + name.upper() + " UR OLD!!")
+    print("!!WOW " + name.upper() + " UR OLD!!")
 elif age < 18:
     print("You are a minor.")
     
