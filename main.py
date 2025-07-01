@@ -1,4 +1,7 @@
 print("Hello from Mahdi!")
+print("Hello from Mahdi!")
+print("Hello from Mahdi!")
+print("I had to say it 3 times..")
 print("---------------------")
 
 name = input("Enter your name: ")
