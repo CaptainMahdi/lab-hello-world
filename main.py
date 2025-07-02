@@ -1,10 +1,7 @@
-print("Hello from Mahdi!")
-print("Hello from Mahdi!")
-print("Hello from Mahdi!")
-print("I had to say it 3 times..")
+print("Hello from Mahdi's Code!")
 print("---------------------")
 
-name = input("Enter your name: ")
+name = input("Enter your name: ").lower()
 
 if name == "mahdi":
     print("Hello Boss!")
@@ -21,7 +18,15 @@ elif age < 18:
     
 print("---------------------")
 
+favlang = input("Whats your favorite coding language? ")
+
+if favlang == "none":
+    print("Thats alright " + name + ", codings not for everyone!")
+else:
+    print("Cool "+ name + ", " + favlang + " is a great language!")
+print("---------------------")
+
 if name == "mahdi" and age == 14:
     print("Identity confirmed. Welcome back Mahdi!")
 else:
-    print("You are all signed up!")
+    print("You are all signed up, enjoy!")
