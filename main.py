@@ -6,7 +6,7 @@ name = input("Enter your name: ").lower()
 if name == "mahdi":
     print("Hello Boss!")
 else:
-    print("Hello " + name + "!")
+    print("Hello " + name.title() + "!")
     
 age = int(input("How old are you? "))
 if 100 >age >= 18:
@@ -21,9 +21,9 @@ print("---------------------")
 favlang = input("Whats your favorite coding language? ")
 
 if favlang == "none":
-    print("Thats alright " + name + ", codings not for everyone!")
+    print("Thats alright " + name.title + ", codings not for everyone!")
 else:
-    print("Cool "+ name + ", " + favlang + " is a great language!")
+    print("Cool "+ name.title() + ", " + favlang.title + " is a great language!")
 print("---------------------")
 
 if name == "mahdi" and age == 14:
